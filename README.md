@@ -34,7 +34,7 @@ Você pode ver no gráfico que as vendas em um dia estão correlacionadas com as
 
 A Trend de uma série temporal representa uma mudança persistente e de longo prazo na média da série. A Trend é a parte de movimento mais lento de uma série, a parte que representa a maior escala de tempo de importância. Em uma série temporal de vendas de produtos, uma tendência crescente pode ser o efeito de uma expansão do mercado, à medida que mais pessoas ficam sabendo do produto ano após ano.
 
-*img*
+![4](https://user-images.githubusercontent.com/90428388/231886127-96de1fdd-df82-4cc6-a951-b2ee39c84819.png)
 
 # Seasonality
 
