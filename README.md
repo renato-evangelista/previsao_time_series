@@ -4,7 +4,7 @@ A previsão é uma das aplicações mais comuns do aprendizado de máquina no mu
 
 O objeto básico da previsão é a Série Temporal, que é um conjunto de observações registradas ao longo do tempo. Em aplicações de previsão, as observações são normalmente registradas com uma frequência regular, como diária ou mensal.
 
-Escolhi os dados da competição “Store Sales - Time Series Forecasting”, do Kaggle¹, para realizar as previsões de vendas da rede varejista Favorita localizada no Equador. O objetivo desse projeto é criar um modelo de machine learning que prevê com mais precisão as vendas dessa rede varejista. 
+Escolhi os dados da competição “Store Sales - Time Series Forecasting”, do Kaggle¹, para realizar as previsões de vendas da rede varejista Favorita localizada no Equador. O objetivo desse projeto é criar um modelo de machine learning que estime as vendas do próximo mês. 
 
 # EDA
 
@@ -24,9 +24,9 @@ Time step é uma forma de analisar os dados por meio de intervalos. Nesse caso, 
 
 Para criar uma lag feature, deslocamos as observações das vendas de um dia para o dia seguinte. Aqui, criamos um recurso de atraso de 1 etapa, embora também seja possível mudar em várias etapas.
 
-A lag permite modelar a dependência serial. Uma série temporal tem dependência serial quando uma observação pode ser prevista a partir de observações anteriores. Podemos prever que vendas altas em um dia geralmente significam vendas altas no dia seguinte.
+A lag permite modelar a dependência serial. Uma série temporal tem dependência serial quando uma observação pode ser prevista a partir de observações anteriores. Verifiquei que vendas altas em um dia geralmente significam vendas altas no dia seguinte.
 
-Você pode ver no gráfico que as vendas em um dia estão correlacionadas com as vendas do dia anterior. Quando você vê um relacionamento como esse, sabe que uma feature lag será útil.
+Você pode ver no gráfico que as vendas em um dia estão correlacionadas com as vendas do dia anterior - ou seja, a lag será útil.
 
 ![3](https://user-images.githubusercontent.com/90428388/231885303-16bba534-7c88-4034-9d74-771a495649d4.png)
 
