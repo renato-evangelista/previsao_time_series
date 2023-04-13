@@ -18,7 +18,7 @@ Como podemos observar, grande parte das vendas deriva de “Grocery” e “Beve
 
 Time step é uma forma de analisar os dados por meio de intervalos. Nesse caso, utilizei o time dummy (conforme figura abaixo). Essa feature é responsável por contar os passos ao longo das datas e permite colocar em um gráfico as vendas da Favorita ao longo do tempo.
 
-*img*
+![2](https://user-images.githubusercontent.com/90428388/231885299-67d8158e-3ce2-46f0-b0b9-d438cc25131f.png)
 
 # Lag
 
@@ -28,7 +28,7 @@ A lag permite modelar a dependência serial. Uma série temporal tem dependênci
 
 Você pode ver no gráfico que as vendas em um dia estão correlacionadas com as vendas do dia anterior. Quando você vê um relacionamento como esse, sabe que uma feature lag será útil.
 
-*img*
+![3](https://user-images.githubusercontent.com/90428388/231885303-16bba534-7c88-4034-9d74-771a495649d4.png)
 
 # Trend
 
@@ -40,11 +40,14 @@ A Trend de uma série temporal representa uma mudança persistente e de longo pr
 
 Dizemos que uma série temporal exibe sazonalidade sempre que há uma mudança regular e periódica na média da série. As mudanças sazonais geralmente seguem o relógio e o calendário - repetições ao longo de um dia, uma semana ou um ano são comuns. A sazonalidade geralmente é impulsionada pelos ciclos naturais do mundo ao longo de dias e anos ou por convenções de comportamento social em torno de datas e horários. No caso das lojas Favorita, há um aumento das vendas nos finais de semana, conforme imagem abaixo.
 
-**img*
+![5](https://user-images.githubusercontent.com/90428388/231885322-645060e3-fa46-4c97-ac42-a211e10a4f63.png)
 
 # Métrica e Modelo
 
 A métrica utilizada foi a Root Mean Squared Logarithmic Error (RMSLE). Após modelar os dados de treino com Regressão Linear, atingi uma acurácia de 0,51 nos dados de teste.
 
+![6](https://user-images.githubusercontent.com/90428388/231885326-22560790-ef79-4953-84b0-720eec4845a4.png)
+
 # Fontes
+
 ¹ https://www.kaggle.com/competitions/store-sales-time-series-forecasting/overview
