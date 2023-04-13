@@ -10,7 +10,8 @@ Escolhi os dados da competição “Store Sales - Time Series Forecasting”, do
 
 Comecei com uma análise exploratória para observar a média de vendas por loja e por produto (family).
 
-!(https://github.com/renato-evangelista/previsao_time_series/blob/main/img/1.png?raw=true)
+!1(https://github.com/renato-evangelista/previsao_time_series/blob/main/img/1.png?raw=true)
+
 
 
 Como podemos observar, grande parte das vendas deriva de “Grocery” e “Beverages”. Além disso, as lojas com a maior média de vendas são as de número “44” e “45”.
